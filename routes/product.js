@@ -3,7 +3,18 @@ const router = express.Router();
 const products = require('../data/products');
 
 router.get('/', (req, res) => {
-  res.json(products);
+  const simplifiedProducts = products.map(product => ({
+    id: product.id,
+    name: product.name,
+    price: product.price,
+    rating: product.rating,
+    reviewCount: product.reviewCount,
+    image: product.images[0].url, // Only return the main image URL
+    category: product.category,
+    stock: product.stock
+  }));
+  
+  res.json(simplifiedProducts);
 });
 
 router.get('/:id', (req, res) => {
