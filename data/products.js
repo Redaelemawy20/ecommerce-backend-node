@@ -33,7 +33,10 @@ const products = [
       width: 100,
       height: 80,
       depth: 90
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: 10,
+    isNew: true
   },
   {
     id: 2,
@@ -64,7 +67,10 @@ const products = [
       width: 120,
       height: 85,
       depth: 95
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: null,
+    isNew: false
   },
   {
     id: 3,
@@ -95,7 +101,10 @@ const products = [
       width: 45,
       height: 95,
       depth: 50
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: 15,
+    isNew: true
   },
   {
     id: 4,
@@ -126,7 +135,10 @@ const products = [
       width: 120,
       height: 45,
       depth: 60
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: null,
+    isNew: false
   },
   {
     id: 5,
@@ -157,7 +169,10 @@ const products = [
       width: 180,
       height: 200,
       depth: 40
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: 20,
+    isNew: true
   },
   {
     id: 6,
@@ -188,7 +203,10 @@ const products = [
       width: 200,
       height: 120,
       depth: 210
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: null,
+    isNew: false
   },
   {
     id: 7,
@@ -219,7 +237,10 @@ const products = [
       width: 45,
       height: 55,
       depth: 45
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: 10,
+    isNew: true
   },
   {
     id: 8,
@@ -250,7 +271,10 @@ const products = [
       width: 180,
       height: 220,
       depth: 60
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: null,
+    isNew: false
   },
   {
     id: 9,
@@ -281,7 +305,10 @@ const products = [
       width: 60,
       height: 45,
       depth: 60
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: 15,
+    isNew: true
   },
   {
     id: 10,
@@ -312,7 +339,10 @@ const products = [
       width: 200,
       height: 60,
       depth: 45
-    }
+    },
+    image: "https://via.placeholder.com/600x400",
+    discount: null,
+    isNew: false
   }
 ];
 

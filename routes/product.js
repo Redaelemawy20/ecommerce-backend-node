@@ -5,13 +5,15 @@ const products = require('../data/products');
 router.get('/', (req, res) => {
   const simplifiedProducts = products.map(product => ({
     id: product.id,
-    name: product.name,
+    title: product.title, // Replace name with title
     price: product.price,
     rating: product.rating,
     reviewCount: product.reviewCount,
     image: product.images[0].url, // Only return the main image URL
     category: product.category,
-    stock: product.stock
+    stock: product.stock,
+    isNew: product.isNew, // Include isNew property
+    discount: product.discount // Include discount property
   }));
   
   res.json(simplifiedProducts);
