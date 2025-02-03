@@ -12,17 +12,17 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Asgaard sofa.png',
+        url: 'http://localhost:4000/files/sofa_1.jpg',
         alt: 'Asgaard sofa main view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Asgaard sofa.png',
+        url: 'http://localhost:4000/files/sofa_2.jpg',
         alt: 'Asgaard sofa side view',
       },
       {
         id: 3,
-        url: 'http://localhost:4000/files/Asgaard sofa.png',
+        url: 'http://localhost:4000/files/sofa_1.jpg',
         alt: 'Asgaard sofa detail view',
       },
     ],
@@ -35,7 +35,7 @@ const products = [
       height: 80,
       depth: 90,
     },
-    image: 'http://localhost:4000/files/Asgaard sofa.png',
+    image: 'http://localhost:4000/files/sofa_1.jpg',
     discount: 10,
     isNew: true,
   },
@@ -52,12 +52,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Syltherine.png',
+        url: 'http://localhost:4000/files/sofa_2.jpg',
         alt: 'Syltherine main view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Syltherine.png',
+        url: 'http://localhost:4000/files/sofa_1.jpg',
         alt: 'Syltherine side view',
       },
     ],
@@ -70,7 +70,7 @@ const products = [
       height: 85,
       depth: 95,
     },
-    image: 'http://localhost:4000/files/Syltherine.png',
+    image: 'http://localhost:4000/files/sofa_1.jpg',
     discount: null,
     isNew: false,
   },
@@ -157,12 +157,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Respira Bookshelf.png',
+        url: 'http://localhost:4000/files/bookshelf_2.jpg',
         alt: 'Respira bookshelf front view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Respira Bookshelf.png',
+        url: 'http://localhost:4000/files/bookshelf_3.jpg',
         alt: 'Respira bookshelf detail view',
       },
     ],
@@ -175,7 +175,7 @@ const products = [
       height: 200,
       depth: 40,
     },
-    image: 'http://localhost:4000/files/Respira Bookshelf.png',
+    image: 'http://localhost:4000/files/bookshelf_1.jpg',
     discount: 20,
     isNew: true,
   },
