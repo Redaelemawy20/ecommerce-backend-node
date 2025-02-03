@@ -87,12 +87,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Leviosa Dining Chair.png',
+        url: 'http://localhost:4000/files/chair_1.png',
         alt: 'Leviosa chair front view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Leviosa Dining Chair.png',
+        url: 'http://localhost:4000/files/chair_2.png',
         alt: 'Leviosa chair side view',
       },
     ],
@@ -105,7 +105,7 @@ const products = [
       height: 95,
       depth: 50,
     },
-    image: 'http://localhost:4000/files/Leviosa Dining Chair.png',
+    image: 'http://localhost:4000/files/chair_5.png',
     discount: 15,
     isNew: true,
   },
@@ -122,12 +122,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Lolito Coffee Table.png',
+        url: 'http://localhost:4000/files/coffe_table_2.jpg',
         alt: 'Lolito table top view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Lolito Coffee Table.png',
+        url: 'http://localhost:4000/files/coffe_table_3.jpg',
         alt: 'Lolito table side view',
       },
     ],
@@ -140,7 +140,7 @@ const products = [
       height: 45,
       depth: 60,
     },
-    image: 'http://localhost:4000/files/Lolito Coffee Table.png',
+    image: 'http://localhost:4000/files/coffe_table_1.jpg',
     discount: null,
     isNew: false,
   },
@@ -192,12 +192,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Grifo Bed Frame.png',
+        url: 'http://localhost:4000/files/bed_2.jpg',
         alt: 'Grifo bed front view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Grifo Bed Frame.png',
+        url: 'http://localhost:4000/files/bed_3.jpg',
         alt: 'Grifo bed side view',
       },
     ],
@@ -210,7 +210,7 @@ const products = [
       height: 120,
       depth: 210,
     },
-    image: 'http://localhost:4000/files/Grifo Bed Frame.png',
+    image: 'http://localhost:4000/files/bed_1.jpg',
     discount: null,
     isNew: false,
   },
@@ -227,12 +227,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Muggo Side Table.png',
+        url: 'http://localhost:4000/files/sideTable_2.jpg',
         alt: 'Muggo table top view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Muggo Side Table.png',
+        url: 'http://localhost:4000/files/sideTable_3.jpg',
         alt: 'Muggo table side view',
       },
     ],
@@ -245,7 +245,7 @@ const products = [
       height: 55,
       depth: 45,
     },
-    image: 'http://localhost:4000/files/Muggo Side Table.png',
+    image: 'http://localhost:4000/files/sideTable_1.jpg',
     discount: 10,
     isNew: true,
   },
@@ -262,12 +262,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Pingky Wardrobe.png',
+        url: 'http://localhost:4000/files/storage_5.jpg',
         alt: 'Pingky wardrobe front view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Pingky Wardrobe.png',
+        url: 'http://localhost:4000/files/storage_6.jpg',
         alt: 'Pingky wardrobe interior view',
       },
     ],
@@ -280,7 +280,7 @@ const products = [
       height: 220,
       depth: 60,
     },
-    image: 'http://localhost:4000/files/Pingky Wardrobe.png',
+    image: 'http://localhost:4000/files/storage_4.jpg',
     discount: null,
     isNew: false,
   },
@@ -297,12 +297,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Potty Ottoman.png',
+        url: 'http://localhost:4000/files/seatting_2.jpg',
         alt: 'Potty ottoman front view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Potty Ottoman.png',
+        url: 'http://localhost:4000/files/seatting_3.jpg',
         alt: 'Potty ottoman open view',
       },
     ],
@@ -315,7 +315,7 @@ const products = [
       height: 45,
       depth: 60,
     },
-    image: 'http://localhost:4000/files/Potty Ottoman.png',
+    image: 'http://localhost:4000/files/seatting_1.jpg',
     discount: 15,
     isNew: true,
   },
@@ -332,12 +332,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/Stellar TV Unit.png',
+        url: 'http://localhost:4000/files/storage_2.jpg',
         alt: 'Stellar TV unit front view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/Stellar TV Unit.png',
+        url: 'http://localhost:4000/files/storage_3.jpg',
         alt: 'Stellar TV unit detail view',
       },
     ],
@@ -350,7 +350,7 @@ const products = [
       height: 60,
       depth: 45,
     },
-    image: 'http://localhost:4000/files/Stellar TV Unit.png',
+    image: 'http://localhost:4000/files/storage_1.jpg',
     discount: null,
     isNew: false,
   },
