@@ -87,7 +87,7 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/chair_1.png',
+        url: 'http://localhost:4000/files/chair_1.jpg',
         alt: 'Leviosa chair front view',
       },
       {
