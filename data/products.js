@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    name: 'Asgaard sofa',
+    title: 'Asgaard sofa',
     price: 250000.0,
     description:
       'Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.',
@@ -12,7 +12,7 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/sofa_1.jpg',
+        url: 'http://localhost:4000/files/sofa_3.jpg',
         alt: 'Asgaard sofa main view',
       },
       {
@@ -41,7 +41,7 @@ const products = [
   },
   {
     id: 2,
-    name: 'Syltherine',
+    title: 'Syltherine',
     price: 350000.0,
     description:
       'Luxury big sofa 2-seat with modern design and premium quality materials, perfect for your living room.',
@@ -57,7 +57,7 @@ const products = [
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/sofa_1.jpg',
+        url: 'http://localhost:4000/files/sofa_3.jpg',
         alt: 'Syltherine side view',
       },
     ],
@@ -76,7 +76,7 @@ const products = [
   },
   {
     id: 3,
-    name: 'Leviosa Dining Chair',
+    title: 'Leviosa Dining Chair',
     price: 145000.0,
     description:
       'Elegant dining chair with premium upholstery and ergonomic design, perfect for long dinner conversations.',
@@ -111,7 +111,7 @@ const products = [
   },
   {
     id: 4,
-    name: 'Lolito Coffee Table',
+    title: 'Lolito Coffee Table',
     price: 180000.0,
     description:
       'Modern coffee table with sleek design and durable construction, featuring storage compartments.',
@@ -122,7 +122,7 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/coffe_table_2.jpg',
+        url: 'http://localhost:4000/files/coffee_table_4.jpg',
         alt: 'Lolito table top view',
       },
       {
@@ -146,7 +146,7 @@ const products = [
   },
   {
     id: 5,
-    name: 'Respira Bookshelf',
+    title: 'Respira Bookshelf',
     price: 290000.0,
     description:
       'Contemporary bookshelf with adjustable shelves and minimal design, perfect for modern homes.',
@@ -181,7 +181,7 @@ const products = [
   },
   {
     id: 6,
-    name: 'Grifo Bed Frame',
+    title: 'Grifo Bed Frame',
     price: 420000.0,
     description:
       'Luxurious king-size bed frame with premium upholstery and built-in storage.',
@@ -216,7 +216,7 @@ const products = [
   },
   {
     id: 7,
-    name: 'Muggo Side Table',
+    title: 'Muggo Side Table',
     price: 85000.0,
     description:
       'Compact side table with modern design, perfect for small spaces and bedside use.',
@@ -227,12 +227,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/sideTable_2.jpg',
+        url: 'http://localhost:4000/files/sidetable_1.jpg',
         alt: 'Muggo table top view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/sideTable_3.jpg',
+        url: 'http://localhost:4000/files/sidetable_2.jpg',
         alt: 'Muggo table side view',
       },
     ],
@@ -245,13 +245,13 @@ const products = [
       height: 55,
       depth: 45,
     },
-    image: 'http://localhost:4000/files/sideTable_1.jpg',
+    image: 'http://localhost:4000/files/sidetable_3.jpg',
     discount: 10,
     isNew: true,
   },
   {
     id: 8,
-    name: 'Pingky Wardrobe',
+    title: 'Pingky Wardrobe',
     price: 550000.0,
     description:
       'Spacious wardrobe with multiple compartments and full-length mirror, built for modern living.',
@@ -286,7 +286,7 @@ const products = [
   },
   {
     id: 9,
-    name: 'Potty Ottoman',
+    title: 'Potty Ottoman',
     price: 75000.0,
     description:
       'Versatile ottoman that serves as both seating and storage, with premium fabric upholstery.',
@@ -297,12 +297,12 @@ const products = [
     images: [
       {
         id: 1,
-        url: 'http://localhost:4000/files/seatting_2.jpg',
+        url: 'http://localhost:4000/files/couch_1.jpg',
         alt: 'Potty ottoman front view',
       },
       {
         id: 2,
-        url: 'http://localhost:4000/files/seatting_3.jpg',
+        url: 'http://localhost:4000/files/couch_2.jpg',
         alt: 'Potty ottoman open view',
       },
     ],
@@ -315,13 +315,13 @@ const products = [
       height: 45,
       depth: 60,
     },
-    image: 'http://localhost:4000/files/seatting_1.jpg',
+    image: 'http://localhost:4000/files/couch_3.jpg',
     discount: 15,
     isNew: true,
   },
   {
     id: 10,
-    name: 'Stellar TV Unit',
+    title: 'Stellar TV Unit',
     price: 320000.0,
     description:
       'Contemporary TV unit with cable management and ample storage space for entertainment systems.',
